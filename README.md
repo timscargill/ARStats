@@ -2,9 +2,7 @@
 
 Unity project folder for an AR application to record device tracking data and IMU sensor readings, environment characteristics, and user experience metrics.
 
-Built as an additional scene (Scenes>SceneIt>PerformanceTesting) on top of the Unity AR Foundation Samples project. Existing Unity AR Foundation assets included for now for ease of adding new features. 
-
-Functionality can be added to an existing Unity AR Foundation project by adding the Scripts>PerformanceTesting.cs script to a scene.
+Built using the Unity AR Foundation framework. Some Unity AR Foundation prefabs and scripts retained for experimenting with additional features.
 
 
 
