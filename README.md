@@ -6,7 +6,7 @@ Built using the Unity AR Foundation framework. Some Unity AR Foundation sample p
 
 Created using Unity 2020.1.16f1. Tested with the following configurations:
 - Unity 2020.1.16f1, iOS 14.3, iPhone 11
-- Unity 20220.2..., Android 11, Samsung Galaxy Note 10+ 
+- Unity 2020.2.2f1, Android 11, Samsung Galaxy Note 10+ 
 
 # Build Instructions (Unity for iOS or Android)
 
