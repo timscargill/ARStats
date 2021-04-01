@@ -8,7 +8,7 @@ Created using Unity 2020.1.16f1. Tested with the following configurations:
 - Unity 2020.1.16f1, iOS 14.3, iPhone 11
 - Unity 20220.2..., Android 11, Samsung Galaxy Note 10+ 
 
-# Build Instructions (Unity for Android or iOS)
+# Build Instructions (Unity for iOS or Android)
 
 1) Download .zip file and unzip in a convenient location (the Unity project folder is the sub-folder 'ARPerformanceTestingTool-main') 
 2) In Unity Hub, under projects, click 'Add' and select the Unity project folder
