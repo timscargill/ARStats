@@ -91,6 +91,6 @@ The following output files are generated during the app use described above. Eac
 
 **temp_place.txt**: device temperature readings (one each frame) during 'place' stage. Currently only available and generated for iOS.
 
-**tracking_map.txt**: device pose tracking status (one each frame) during 'map' stage
+**tracking_map.txt**: device pose tracking status (one each frame) during 'map' stage.
 
-**tracking_place.txt**: device pose tracking status (one each frame) during 'place' stage
+**tracking_place.txt**: device pose tracking status (one each frame) during 'place' stage.
