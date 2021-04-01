@@ -5,7 +5,7 @@ Unity project folder for an AR application (iOS or Android) to record device tra
 Built using the Unity AR Foundation framework supporting both ARKit and ARCore. Some Unity AR Foundation sample prefabs and scripts retained for functionality and experimenting with additional features.
 
 Created using Unity 2020.1.16f1. Tested with the following configurations:
-- Unity 2020.1.16f1, iOS 14.3, iPhone 11
+- Unity 2020.1.16f1, iOS 14.4, iPhone 11
 - Unity 2020.2.2f1, Android 11, Samsung Galaxy Note 10+ 
 
 # Build Instructions (Unity for iOS or Android)
