@@ -12,7 +12,7 @@ Created using Unity 2020.1.16f1. Tested with the following configurations:
 
 1) Download .zip file and unzip in a convenient location (the Unity project folder is the folder 'ARPerformanceTestingTool-main') 
 2) In Unity Hub, under projects, click 'Add' and select the Unity project folder
-3) Open the Unity project, and make sure the 'PerformanceTesting' scene (Scenes>PerformanceTesting) is open (should open on startup)
+3) Open the Unity project, then open the 'PerformanceTesting' scene (Scenes>PerformanceTesting).
 4) Navigate to File>Build Settings, select your Build platform, and click 'Switch Platform'.
 5) Make sure only the 'PerformanceTesting' scene is selected in 'Scenes in Build'.
 6) For Android, select your connected target device and click 'Build and Run'. For iOS, click 'Build' and follow the instructions for XCode below.
