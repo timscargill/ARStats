@@ -46,15 +46,25 @@ Created using Unity 2020.1.16f1. Tested with the following configurations:
 The following output files are generated during the app use described above. Each scene is recorded in a sub-folder named with the timestamp (yyyy-MM-dd-HH-mm-ss) of when the app was opened.
 
 acc_map.txt: accelerometer readings (one each frame) during 'map' stage
+
 acc_place.txt: accelerometer readings (one each frame) during 'place' stage
+
 device_map.txt: estimated device position in world space (one each frame) during 'map' stage
+
 device_place.txt: estimated device position in world space (one each frame) during 'place' stage
+
 firstPlane_time.txt: time until first plane was detected
+
 fps_map.txt: frames per second during 'map' stage
+
 fps_place.txt: frames per second during 'place' stage
+
 gyro_map.txt: gyroscope readings (one each frame) during 'map' stage
+
 gyro_place.txt: gyroscope readings (one each frame) during 'place' stage
+
 initialization_time.txt: time until tracking first initializes after app open
+
 light.txt: 
 
 
