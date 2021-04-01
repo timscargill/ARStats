@@ -19,7 +19,7 @@ Created using Unity 2020.1.16f1. Tested with the following configurations:
 
 # Build Instructions (XCode for iOS)
 
-1) Building the Unity project for iOS creates an XCode project folder, which you can choose the name and location of. A sample built XCode project folder is provided here: 'ARPerformanceTestingTool (iOS)'.
+1) Building the Unity project for iOS creates an XCode project folder, which you can choose the name and location of.
 2) Open the project folder in XCode (XCode 12 required to build for iOS 14).
 3) Click 'Signing and Capabilities'. Check 'Automatically manage signing', select your development team, and choose a new bundle identifier.
 4) Make sure your target iOS device is connected and selected at the top of the window, then click the play button to build and run.
