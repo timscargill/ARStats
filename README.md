@@ -2,7 +2,7 @@
 
 Unity project folder for an AR application (iOS or Android) to record device tracking data and IMU sensor readings, environment characteristics, and user experience metrics.
 
-Built using the Unity AR Foundation framework. Some Unity AR Foundation sample prefabs and scripts retained for functionality and experimenting with additional features.
+Built using the Unity AR Foundation framework supporting both ARKit and ARCore. Some Unity AR Foundation sample prefabs and scripts retained for functionality and experimenting with additional features.
 
 Created using Unity 2020.1.16f1. Tested with the following configurations:
 - Unity 2020.1.16f1, iOS 14.3, iPhone 11
@@ -53,7 +53,7 @@ The following output files are generated during the app use described above. Eac
 
 **device_place.txt**: estimated device position in world space (one each frame) during 'place' stage
 
-**firstPlane_time.txt**: time until first plane was detected
+**firstPlane_time.txt**: time until first plane was detected (hh:mm:ss:ms)
 
 **fps_map.txt**: frames per second during 'map' stage
 
@@ -63,8 +63,34 @@ The following output files are generated during the app use described above. Eac
 
 **gyro_place.txt**: gyroscope readings (one each frame) during 'place' stage
 
-**initialization_time.txt**: time until tracking first initializes after app open
+**initialization_time.txt**: time until device pose tracking first initializes after app open (hh:mm:ss:ms)
 
-**light.txt**: 
+**light.txt**: brightness, color temperature for each environment data sample taken during the map stage (1 per line). Color temperature is currently only available for iOS.
 
+**mapping_time.txt**: time spent by the user mapping the scene (hh:mm:ss:ms)
 
+**placementPlane.txt**: properties of plane where hologram was placed (1-orientation, 2-x and y extents, 3-distance from hologram placement position to center of plane).
+
+**planes.txt**: number of planes detected so far at environment data sample taken during the map stage (1 per line).
+
+**pointcloud.txt**: pointcloud captured during the 'map' stage (1 3D point per line; x, y and z components).
+
+**position0.png**: screenshot on first 'Measure' click (original target hologram position).
+
+**position0.txt**: details of the target hologram placement (1-position in world space, 2-distance from camera to hologram, 3-change in viewing angle around the y-axis from position0 (0), 4-magnitude of hologram drift from position 0 (0).
+
+**position1.png**: screenshot on second 'Measure' click (reference hologram position).
+
+**position1.txt**: details of the reference hologram placement (1-position in world space, 2-distance from camera to hologram, 3-change in viewing angle around the y-axis from position0, 4-magnitude of hologram drift from position 0.
+
+**relocalization_time.txt**: time for device pose tracking to be reestablished after an interruption or temporary loss of tracking (hh:mm:ss:ms)
+
+**rgb#.png**: camera image at each environment data sample taken during the map stage.
+
+**temp_map.txt**: device temperature readings (one each frame) during 'map' stage. Currently only available and generated for iOS.
+
+**temp_place.txt**: device temperature readings (one each frame) during 'place' stage. Currently only available and generated for iOS.
+
+**tracking_map.txt**: device pose tracking status (one each frame) during 'map' stage
+
+**tracking_place.txt**: device pose tracking status (one each frame) during 'place' stage
