@@ -33,6 +33,7 @@ Created using Unity 2020.1.16f1. Tested with the following configurations:
 *During the mapping stage environment data (light and camera image) are sampled after 50 frames, and every 100 frames thereafter.*
 
 'Place' Stage
+
 3) Press 'Place' to place the red sphere (target) hologram at marked position in the real world. Press repeatedly to adjust its position if necessary. 
 4) Press 'Measure' to confirm and capture the original position of the hologram.
 5) Perform some type of movement that may affect the accuracy of tracking (e.g. moving to a different viewing angle, placing the phone down).
