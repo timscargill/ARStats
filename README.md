@@ -1,1 +1,1 @@
-# ARPerformanceTestingTool
+# AR Performance Testing Tool
