@@ -26,7 +26,33 @@ Created using Unity 2020.1.16f1. Tested with the following configurations:
 
 # Use Instructions
 
-1)
+'Map' Stage:
+1) Move around to detect a plane (transparent grey object). 
+2) The green circle shows you where the hologram will be placed, located at the point a vector from the center of the screen first intersects a plane.
+*During the mapping stage environment data (light and camera image) after 50 frames, and every 100 frames thereafter.
+
+'Place' Stage
+3) Press 'Place' to place the red sphere (target) hologram at marked position in the real world. Press repeatedly to adjust its position if necessary. 
+4) Press 'Measure' to confirm and capture the original position of the hologram.
+5) Perform some type of movement that may affect the accuracy of tracking (e.g. moving to a different viewing angle, placing the phone down).
+6) Press 'Place' (repeatedly if necessary) to place the blue sphere (reference) hologram, at the point in the real world where the red hologram was originally placed.
+7) Press 'Measure' to capture the position of the blue hologram and write out all data.
+8) Close the app. The above steps can be repeated to capture a new scene once the app has been closed and reopened.
 
 # Output Files
+
+The following output files are generated during the app use described above. Each scene is recorded in a sub-folder named with the timestamp (yyyy-MM-dd-HH-mm-ss) of when the app was opened.
+
+acc_map.txt: accelerometer readings (one each frame) during 'map' stage
+acc_place.txt: accelerometer readings (one each frame) during 'place' stage
+device_map.txt: estimated device position in world space (one each frame) during 'map' stage
+device_place.txt: estimated device position in world space (one each frame) during 'place' stage
+firstPlane_time.txt: time until first plane was detected
+fps_map.txt: frames per second during 'map' stage
+fps_place.txt: frames per second during 'place' stage
+gyro_map.txt: gyroscope readings (one each frame) during 'map' stage
+gyro_place.txt: gyroscope readings (one each frame) during 'place' stage
+initialization_time.txt: time until tracking first initializes after app open
+light.txt: 
+
 
