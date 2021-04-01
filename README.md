@@ -45,29 +45,29 @@ Created using Unity 2020.1.16f1. Tested with the following configurations:
 
 The following output files are generated during the app use described above. Each scene is recorded in a sub-folder named with the timestamp (yyyy-MM-dd-HH-mm-ss) of when the app was opened.
 
-**acc_map.txt**: accelerometer readings (one each frame) during 'map' stage
+**acc_map.txt**: accelerometer readings (one each frame) during 'map' stage.
 
-**acc_place.txt**: accelerometer readings (one each frame) during 'place' stage
+**acc_place.txt**: accelerometer readings (one each frame) during 'place' stage.
 
-**device_map.txt**: estimated device position in world space (one each frame) during 'map' stage
+**device_map.txt**: estimated device position in world space (one each frame) during 'map' stage.
 
-**device_place.txt**: estimated device position in world space (one each frame) during 'place' stage
+**device_place.txt**: estimated device position in world space (one each frame) during 'place' stage.
 
-**firstPlane_time.txt**: time until first plane was detected (hh:mm:ss:ms)
+**firstPlane_time.txt**: time until first plane was detected (hh:mm:ss:ms).
 
-**fps_map.txt**: frames per second during 'map' stage
+**fps_map.txt**: frames per second during 'map' stage.
 
-**fps_place.txt**: frames per second during 'place' stage
+**fps_place.txt**: frames per second during 'place' stage.
 
-**gyro_map.txt**: gyroscope readings (one each frame) during 'map' stage
+**gyro_map.txt**: gyroscope readings (one each frame) during 'map' stage.
 
-**gyro_place.txt**: gyroscope readings (one each frame) during 'place' stage
+**gyro_place.txt**: gyroscope readings (one each frame) during 'place' stage.
 
-**initialization_time.txt**: time until device pose tracking first initializes after app open (hh:mm:ss:ms)
+**initialization_time.txt**: time until device pose tracking first initializes after app open (hh:mm:ss:ms).
 
 **light.txt**: brightness, color temperature for each environment data sample taken during the map stage (1 per line). Color temperature is currently only available for iOS.
 
-**mapping_time.txt**: time spent by the user mapping the scene (hh:mm:ss:ms)
+**mapping_time.txt**: time spent by the user mapping the scene (hh:mm:ss:ms).
 
 **placementPlane.txt**: properties of plane where hologram was placed (1-orientation, 2-x and y extents, 3-distance from hologram placement position to center of plane).
 
@@ -83,9 +83,9 @@ The following output files are generated during the app use described above. Eac
 
 **position1.txt**: details of the reference hologram placement (1-position in world space, 2-distance from camera to hologram, 3-change in viewing angle around the y-axis from position0, 4-magnitude of hologram drift from position 0.
 
-**relocalization_time.txt**: time for device pose tracking to be reestablished after an interruption or temporary loss of tracking (hh:mm:ss:ms)
+**relocalization_time.txt**: time for device pose tracking to be reestablished after an interruption or temporary loss of tracking (hh:mm:ss:ms).
 
-**rgb#.png**: camera image at each environment data sample taken during the map stage.
+**rgb#.png**: camera image at each environment data sample taken during 'map' stage.
 
 **temp_map.txt**: device temperature readings (one each frame) during 'map' stage. Currently only available and generated for iOS.
 
