@@ -26,13 +26,13 @@ Created using Unity 2020.1.16f1. Tested with the following configurations:
 
 # Use Instructions
 
-'Map' Stage:
+'Map' Phase:
 1) Move around to detect a plane (transparent grey object). 
 2) The green circle shows you where the hologram will be placed, located at the point a vector from the center of the screen first intersects a plane.
 
-*During the mapping stage environment data (light and camera image) are sampled after 50 frames, and every 100 frames thereafter.*
+*During the mapping phase environment data (light and camera image) are sampled after 50 frames, and every 100 frames thereafter.*
 
-'Place' Stage:
+'Place' Phase:
 
 3) Press 'Place' to place the red sphere (target) hologram at marked position in the real world. Press repeatedly to adjust its position if necessary. 
 4) Press 'Measure' to confirm and capture the original position of the hologram.
