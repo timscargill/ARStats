@@ -1,4 +1,4 @@
-# AR Performance Measurement Application
+# HoloMeasure: AR Session Measurement Application
 
 Unity project folder for an AR application (iOS or Android) to record device tracking data and IMU sensor readings, environment characteristics, and user experience (e.g. hologram stability) metrics.
 
