@@ -1,6 +1,6 @@
 # ARStats: AR Session Measurement Application
 
-ARStats is an AR app (Android or iOS) that records device tracking data and IMU sensor readings, environment characteristics, and user experience (e.g., virtual object stability) metrics. A full description of the app is available in [this technical report](https://arxiv.org/abs/2109.14757). ARStats was used to conduct quantitative measurements of virtual object drift on various AR platforms and devices in [Here To Stay: A Quantitative Comparison of Virtual Object Stability in Markerless Mobile AR]([https://maria.gorlatova.com/wp-content/uploads/2022/03/HereToStay_CR.pdf), published in the IEEE/ACM Workshop on Cyber-Physical-Human System Design and Implementation, May 2022 (co-located with CPS-IoT Week 2022).
+ARStats is an AR app (Android or iOS) that records device tracking data and IMU sensor readings, environment characteristics, and user experience (e.g., virtual object stability) metrics. A full description of the app is available in [this technical report](https://arxiv.org/abs/2109.14757). ARStats was used to conduct quantitative measurements of virtual object drift on various AR platforms and devices in [Here To Stay: A Quantitative Comparison of Virtual Object Stability in Markerless Mobile AR](https://maria.gorlatova.com/wp-content/uploads/2022/03/HereToStay_CR.pdf), published in the IEEE/ACM Workshop on Cyber-Physical-Human System Design and Implementation, May 2022 (co-located with CPS-IoT Week 2022).
 
 # ARStats Overview
 
@@ -8,19 +8,23 @@ ARStats measures virtual object (hologram) drift through the use of a real world
 
 1) Place a real world reference point (e.g., a sticker approximately 1cm in diameter) and move the AR device to detect a virtual plane.
 2) Use the virtual placement guidance to place the original virtual object (a red sphere) on the real reference point.
-3) Perform a movement (e.g., walking away and returning), and place the reference virtual object (a red sphere) on the real reference point.
+3) Perform a movement (e.g., walking away and returning), and place the reference virtual object (a blue sphere) on the real reference point.
 
-Unity project folder for an AR app  
+![ARStats screenshots](https://github.com/timscargill/ARStats/blob/main/ARStats.png?raw=true)
 
-Built using the Unity AR Foundation framework supporting both ARKit and ARCore. Some Unity AR Foundation sample prefabs and scripts retained for functionality and experimenting with additional features.
+Throughout
+
+Please see [Use Instructions](#use-instructions) for more detailed information on how to operate the ARStats app.
+
+# Implementation Instructions
+
+ARStats comes in the form of a Unity project folder, which can be built to Android or iOS devices; it is created using the Unity AR Foundation framework which supports both ARKit and ARCore. Some Unity AR Foundation sample prefabs and scripts are retained for functionality and experimenting with additional features.
 
 Created using Unity 2020.1.16f1. Tested with the following configurations:
 - Unity 2020.1.16f1, iOS 14.4, iPhone 11
 - Unity 2020.1.16f1, iOS 15.1, iPhone 11
 - Unity 2020.1.16f1, iOS 15.0, iPhone 13 Pro Max
-- Unity 2020.2.2f1, Android 11, Samsung Galaxy Note 10+ 
-
-# Build Instructions (Unity for iOS or Android)
+- Unity 2020.2.2f1, Android 11, Samsung Galaxy Note 10+
 
 1) Download .zip file and unzip in a convenient location (the Unity project folder is the folder 'ARPerformanceTestingTool-main'). 
 2) In Unity Hub, under projects, click 'Add' and select the Unity project folder.
@@ -29,12 +33,12 @@ Created using Unity 2020.1.16f1. Tested with the following configurations:
 5) Make sure only the 'PerformanceTesting' scene is selected in 'Scenes in Build'.
 6) For Android, select your connected target device and click 'Build and Run'. For iOS, click 'Build' and follow the instructions for XCode below.
 
-# Build Instructions (XCode for iOS)
+If building to iOS devices, an extra signing step in XCode is required:
 
-1) Building the Unity project for iOS creates an XCode project folder, which you can choose the name and location of.
-2) Open the project folder you just created in XCode (XCode 12 required to build for iOS 14).
-3) Click 'Signing and Capabilities'. Check 'Automatically manage signing', select your development team, and choose a new bundle identifier.
-4) Make sure your target iOS device is connected and selected at the top of the window, then click the play button to build and run.
+7) Building the Unity project for iOS creates an XCode project folder, which you can choose the name and location of.
+8) Open the project folder you just created in XCode (XCode 12 required to build for iOS 14).
+9) Click 'Signing and Capabilities'. Check 'Automatically manage signing', select your development team, and choose a new bundle identifier.
+10) Make sure your target iOS device is connected and selected at the top of the window, then click the play button to build and run.
 
 # Use Instructions
 
