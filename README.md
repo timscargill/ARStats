@@ -1,6 +1,16 @@
 # ARStats: AR Session Measurement Application
 
-Unity project folder for an AR app (Android or iOS) to record device tracking data and IMU sensor readings, environment characteristics, and user experience (e.g., virtual object stability) metrics.
+ARStats is an AR app (Android or iOS) that records device tracking data and IMU sensor readings, environment characteristics, and user experience (e.g., virtual object stability) metrics. A full description of the app is available in [this technical report](https://arxiv.org/abs/2109.14757). ARStats was used to conduct quantitative measurements of virtual object drift on various AR platforms and devices in [Here To Stay: A Quantitative Comparison of Virtual Object Stability in Markerless Mobile AR]([https://maria.gorlatova.com/wp-content/uploads/2022/03/HereToStay_CR.pdf), published in the IEEE/ACM Workshop on Cyber-Physical-Human System Design and Implementation, May 2022 (co-located with CPS-IoT Week 2022).
+
+# ARStats Overview
+
+ARStats measures virtual object (hologram) drift through the use of a real world reference point and virtual objects placed by the user. To perform a drift measurement, the user performs the following steps, illustrated in the below images: 
+
+1) Place a real world reference point (e.g., a sticker approximately 1cm in diameter) and move the AR device to detect a virtual plane.
+2) Use the virtual placement guidance to place the original virtual object (a red sphere) on the real reference point.
+3) Perform a movement (e.g., walking away and returning), and place the reference virtual object (a red sphere) on the real reference point.
+
+Unity project folder for an AR app  
 
 Built using the Unity AR Foundation framework supporting both ARKit and ARCore. Some Unity AR Foundation sample prefabs and scripts retained for functionality and experimenting with additional features.
 
