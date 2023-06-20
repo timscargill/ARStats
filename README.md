@@ -26,6 +26,7 @@ ARStats captures a wide variety of data to help you characterize AR sessions, en
   - **Environment mapping data** (e.g., number of planes detected, time until first plane detected, point cloud map)
   - **Virtual object stability data** (drift and relocalization time)
 
+Please see the [Output Files](#output-files) section for more detailed information on the data ARStats saves to local storage.
 
 # Implementation Instructions
 
