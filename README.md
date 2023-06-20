@@ -12,9 +12,20 @@ ARStats measures virtual object (hologram) drift through the use of a real world
 
 ![ARStats screenshots](https://github.com/timscargill/ARStats/blob/main/ARStats.png?raw=true)
 
-Throughout
-
 Please see [Use Instructions](#use-instructions) for more detailed information on how to operate the ARStats app.
+
+# What data does ARStats capture?
+
+ARStats captures a wide variety of data to help you characterize AR sessions, environments, and factors relating to AR user experiences:
+
+  - **Device pose tracking data**
+  - **Device status data** (e.g., frames per second, device temperature)
+  - **Inertial data** (accelerometer and gyroscope readings)
+  - **Visual data** (camera images every 100 frames)
+  - **Environment lighting data** (e.g., brightness, color temperature)
+  - **Environment mapping data** (e.g., number of planes detected, time until first plane detected, point cloud map)
+  - **Virtual object stability data** (drift and relocalization time)
+
 
 # Implementation Instructions
 
@@ -42,11 +53,13 @@ Created using Unity 2020.1.16f1. Tested with the following configurations:
 
 # Use Instructions
 
+Operation of ARStats can be divided into two phases. The 'Map' phase consists of moving the AR device to detect a virtual plane. The 'Place' phase consists of placing the original virtual object, performing a movement, and placing the reference virtual object.
+
 'Map' Phase:
 1) Move around to detect a plane (transparent grey object). 
 2) The green circle shows you where the virtual object will be placed, located at the point a vector from the center of the screen first intersects a plane.
 
-*During the mapping phase environment data (light and camera image) are sampled after 50 frames, and every 100 frames thereafter.*
+*During the 'Map' phase environment data (light and camera image) are sampled after 50 frames, and every 100 frames thereafter.*
 
 'Place' Phase:
 
