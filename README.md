@@ -28,6 +28,20 @@ ARStats captures a wide variety of data to help you characterize AR sessions, en
 
 Please see the [Output Files](#output-files) section for more detailed information on the data ARStats saves to local storage.
 
+# Citation
+
+If you use ARStats in an academic work, please cite:
+
+```
+@article{ARStats,
+  title={Here to Stay: Measuring Hologram Stability in Markerless Smartphone Augmented Reality},
+  author={Scargill, Tim and Chen, Jiasi and Gorlatova, Maria},
+  booktitle={arXiv preprint arXiv:2109.14757},
+  year={2021}
+ }
+ ```
+
+
 # Implementation Instructions
 
 ARStats comes in the form of a Unity project folder, which can be built to Android or iOS devices; it is created using the Unity AR Foundation framework which supports both ARKit and ARCore. Some Unity AR Foundation sample prefabs and scripts are retained for functionality and experimenting with additional features.
