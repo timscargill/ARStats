@@ -14,7 +14,7 @@ ARStats measures virtual object (hologram) drift through the use of a real world
 
 Please see [Use Instructions](#use-instructions) for more detailed information on how to operate the ARStats app.
 
-# What data does ARStats capture?
+# What data can ARStats capture?
 
 ARStats captures a wide variety of data to help you characterize AR sessions, environments, and factors relating to AR user experiences:
 
