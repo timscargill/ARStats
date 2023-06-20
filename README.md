@@ -8,7 +8,7 @@ ARStats measures virtual object (hologram) drift through the use of a real world
 
 1) Place a real world reference point (e.g., a sticker approximately 1cm in diameter) and move the AR device to detect a virtual plane.
 2) Use the virtual placement guidance to place the original virtual object (a red sphere) on the real reference point.
-3) Perform a movement (e.g., walking away and returning), and place the reference virtual object (a blue sphere) on the real reference point.
+3) Perform a movement (e.g., walk away and return), and place the reference virtual object (a blue sphere) on the real reference point.
 
 ![ARStats screenshots](https://github.com/timscargill/ARStats/blob/main/ARStats.png?raw=true)
 
