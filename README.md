@@ -18,7 +18,7 @@ Please see [Use Instructions](#use-instructions) for more detailed information o
 
 ARStats captures a wide variety of data to help you characterize AR sessions, environments, and factors relating to AR user experiences:
 
-  - **Device pose tracking data**
+  - **Device pose tracking data** (e.g., position, initialization time, tracking status)
   - **Device status data** (e.g., frames per second, device temperature)
   - **Inertial data** (accelerometer and gyroscope readings)
   - **Visual data** (camera images every 100 frames)
