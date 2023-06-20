@@ -20,12 +20,6 @@ Please see [Use Instructions](#use-instructions) for more detailed information o
 
 ARStats comes in the form of a Unity project folder, which can be built to Android or iOS devices; it is created using the Unity AR Foundation framework which supports both ARKit and ARCore. Some Unity AR Foundation sample prefabs and scripts are retained for functionality and experimenting with additional features.
 
-Created using Unity 2020.1.16f1. Tested with the following configurations:
-  - Unity 2020.1.16f1, iOS 14.4, iPhone 11
-  - Unity 2020.1.16f1, iOS 15.1, iPhone 11
-  - Unity 2020.1.16f1, iOS 15.0, iPhone 13 Pro Max
-  - Unity 2020.2.2f1, Android 11, Samsung Galaxy Note 10+
-
 1) Download .zip file and unzip in a convenient location (the Unity project folder is the folder 'ARPerformanceTestingTool-main'). 
 2) In Unity Hub, under projects, click 'Add' and select the Unity project folder.
 3) Open the Unity project, then open the 'PerformanceTesting' scene (Scenes>PerformanceTesting).
@@ -39,6 +33,12 @@ If building to iOS devices, an extra signing step in XCode is required:
 8) Open the project folder you just created in XCode (XCode 12 required to build for iOS 14).
 9) Click 'Signing and Capabilities'. Check 'Automatically manage signing', select your development team, and choose a new bundle identifier.
 10) Make sure your target iOS device is connected and selected at the top of the window, then click the play button to build and run.
+
+Created using Unity 2020.1.16f1. Tested with the following configurations:
+  - Unity 2020.1.16f1, iOS 14.4, iPhone 11
+  - Unity 2020.1.16f1, iOS 15.1, iPhone 11
+  - Unity 2020.1.16f1, iOS 15.0, iPhone 13 Pro Max
+  - Unity 2020.2.2f1, Android 11, Samsung Galaxy Note 10+    
 
 # Use Instructions
 
